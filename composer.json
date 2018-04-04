@@ -1,0 +1,29 @@
+{
+    "name": "josephtingiris/email-php",
+    "type": "library",
+    "description": "A PHP class for easily sending email.",
+    "keywords": [
+        "email",
+        "mail",
+        "php email",
+        "php mail"
+    ],
+    "homepage": "https://github.com/josephtingiris/email-php",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Joseph Tingiris",
+            "email": "joseph.tingiris@gmail.com",
+            "homepage": "https://josephtingiris.github.io/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "josephtingiris/debug-php": "0.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "Email.php"
+        ]
+    }
+}
